@@ -1,0 +1,73 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.projects-title {
+    font-size: 32pt;
+    margin-top: 30px;
+}
+
+.project {
+    font-size: 22pt;
+    margin-top: 30px;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#sidebutton {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+#name {
+    margin-top: 10vh;
+    font-size: 42pt;
+    font-family: "Lucida Sans", Monaco, serif;
+}
+
+#profile {
+    color: #222222;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#profile:hover {
+    color: cadetblue;
+}
+
+.slide {
+    display: block;
+    margin: auto;
+    width: 20vw;
+    position: center;
+}
+
+
+
+#medlify-img:hover {
+    opacity: 0.5;
+}
