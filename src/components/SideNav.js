@@ -20,8 +20,8 @@ class SideNav extends Component {
                     animation='overlay'
                     icon='labeled'
                     inverted
-                    onHide={this.handleSidebarHide}
-                    vertical
+                    // onHide={this.handleSidebarHide}
+                    vertical 
                     visible={visible}
                     width='thin'
                 >

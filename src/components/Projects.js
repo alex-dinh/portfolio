@@ -10,7 +10,7 @@ export default class Projects extends Component {
     render() {
         return (
             <div style={{padding: '30px'}}>
-                <h1 className="projects-title">Projects Page</h1>
+                <h1 className="projects-title">Projects</h1>
                 <img src={logo} className="App-logo" alt="logo" />
                 <Divider/>
                 <h1 className="projects">Medlify</h1>
