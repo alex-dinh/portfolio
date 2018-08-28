@@ -33,7 +33,7 @@ class SideNav extends Component {
                         <Menu.Item as='a'><Icon name='edit outline'/>Projects</Menu.Item>
                     </Link>
                     <Link to='/background/'>
-                        <Menu.Item as='a'><Icon name='camera'/>Channels</Menu.Item>
+                        <Menu.Item as='a'><Icon name='camera'/>Cool CSS</Menu.Item>
                     </Link>
                 </Sidebar>
                 <Icon id="sidebutton" onClick={this.handleButtonClick} name='server'/>
