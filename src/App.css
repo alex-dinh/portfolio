@@ -44,6 +44,10 @@
     bottom: 10px;
 }
 
+#sidebutton:hover {
+    color: cadetblue;
+}
+
 #name {
     margin-top: 10vh;
     font-size: 42pt;
@@ -54,6 +58,7 @@
     color: #222222;
     margin-right: 2vw;
     margin-left: 2vw;
+    margin-bottom: 15px;
 }
 
 #profile:hover {
@@ -88,4 +93,16 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+.info {
+    position: relative;
+    z-index: 4;
+    width: 50vw;
+    text-align: center;
+    display: inline-block;
+}
+
+#infodivider {
+    border-top: 1px solid rgba(34, 36, 38, 0.5);
 }

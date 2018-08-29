@@ -10,12 +10,12 @@ class Home extends Component {
     render() {
         return (
             <div className="App">
-                <div style={{position: 'relative', zIndex:'4'}}>
+                <div className='info'>
                     <h1 id='name' className="App-title">Alex Dinh</h1>
                     <h4>Developer.</h4>
                     <h4>Aspiring musician.</h4>
                     <h4>I like to make things.</h4>
-                    <Divider/>
+                    <Divider id='infodivider'/>
                     <a href='https://soundcloud.com/80lux'><Icon id="profile" size='big' name='soundcloud'/></a>
                     <a href='https://open.spotify.com/user/alexladinh'><Icon id="profile" size='big'
                                                                              name='spotify'/></a>
