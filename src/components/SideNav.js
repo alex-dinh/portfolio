@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Header, Icon, Image, Menu, Segment, Sidebar} from 'semantic-ui-react'
-import paragraph from '../images/paragraph.png';
 import {Link} from 'react-router-dom';
 
 class SideNav extends Component {
@@ -20,7 +19,7 @@ class SideNav extends Component {
                     animation='overlay'
                     icon='labeled'
                     inverted
-                    // onHide={this.handleSidebarHide}
+                    onHide={this.handleSidebarHide}
                     vertical 
                     visible={visible}
                     width='thin'
@@ -36,7 +35,9 @@ class SideNav extends Component {
                         <Menu.Item as='a'><Icon name='camera'/>Cool CSS</Menu.Item>
                     </Link>
                 </Sidebar>
-                <Icon id="sidebutton" onClick={this.handleButtonClick} name='server'/>
+                <Icon id="sidebutton"
+                      onClick={this.handleButtonClick}
+                      name='server' style={{position: 'fixed', left: '10px', top: '10px', zIndex: '3'}}/>
             </div>
 
         )

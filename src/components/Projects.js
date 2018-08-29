@@ -5,12 +5,13 @@ import {Divider} from 'semantic-ui-react'
 import ImageSlider from "./Slider";
 import medlify from '../images/medlify-now-playing.PNG';
 import lightsaber from '../images/lightsaber.jpg';
+import webtools from '../images/webtools.PNG';
 
 
 export default class Projects extends Component {
     render() {
         return (
-            <div style={{padding: '30px'}}>
+            <div className='projects' style={{padding: '30px'}}>
                 <h1 className="projects-title">Projects</h1>
                 <img src={logo} className="App-logo" alt="logo"/>
                 <Divider/>
@@ -18,6 +19,11 @@ export default class Projects extends Component {
 
                 <a id='medlify-img' href='https://alex-dinh.github.io/medlify'>
                     <img src={medlify} style={{width: '50vw'}}></img>
+                </a>
+                <Divider/>
+                <h1 className="projects">Merage Web Tools</h1>
+                <a id='medlify-img' href='https://ucimerage.github.io/web-tools/'>
+                    <img src={webtools} style={{width: '50vw'}}></img>
                 </a>
                 <Divider/>
                 <h1 className="projects">Quadcopter</h1>

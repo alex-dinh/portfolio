@@ -3,7 +3,6 @@ import '../App.css';
 import logo from '../logo.svg';
 import {Divider} from 'semantic-ui-react';
 import {Icon} from 'semantic-ui-react';
-import Circles from './Circles';
 import Particles from 'react-particles-js';
 
 
@@ -106,7 +105,7 @@ class Home extends Component {
                                 },
                                 "onclick": {
                                     "enable": true,
-                                    "mode": "push"
+                                    "mode": "repulse"
                                 },
                                 "resize": true
                             },

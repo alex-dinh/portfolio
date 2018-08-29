@@ -5,7 +5,7 @@ import './styles/background.css';
 export default class Background extends Component {
     render() {
         return (
-            <div className='background'></div>
+            <div className='background App'></div>
         );
     }
 }
