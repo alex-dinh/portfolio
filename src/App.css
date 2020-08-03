@@ -1,11 +1,7 @@
 .App {
     text-align: center;
     overflow-y: hidden;
-}
-
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
+    background: #2E3E48;
 }
 
 .App-header {
@@ -15,67 +11,18 @@
     color: white;
 }
 
-.projects-title {
-    font-size: 32pt;
-    margin-top: 30px;
-}
-
-.project {
-    font-size: 22pt;
-    margin-top: 30px;
-}
-
-.App-intro {
-    font-size: large;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 #sidebutton {
-    position: absolute;
+    position: fixed;
     left: 10px;
-    bottom: 10px;
+    top: 10px;
+    z-index: 3;
 }
 
 #sidebutton:hover {
     color: cadetblue;
 }
 
-#name {
-    margin-top: 10vh;
-    font-size: 42pt;
-    font-family: "Lucida Sans", Monaco, serif;
-}
-
-#profile {
-    color: #222222;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    margin-bottom: 15px;
-}
-
-#profile:hover {
-    color: cadetblue;
-}
-
-.slide {
-    display: block;
-    margin: auto;
-    width: 20vw;
-    position: center;
-}
-
-#medlify-img:hover {
-    opacity: 0.5;
-}
-
+/* scrollbar styling */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -95,14 +42,37 @@
     background: #555;
 }
 
-.info {
-    position: relative;
-    z-index: 4;
-    width: 50vw;
-    text-align: center;
-    display: inline-block;
+@media all and (max-width: 980px) {
+    .info{
+        /*margin-left: 0px;*/
+        left: 4%;
+        right: 4%;
+    }
+
+    #pagetitle {
+        text-align: center;
+    }
+
+    #profile-wrapper {
+        text-align: center;
+    }
+
+    #profile {
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
 }
 
 #infodivider {
     border-top: 1px solid rgba(34, 36, 38, 0.5);
 }
+
+@media all and (max-width: 980px) {
+    #entry{
+        max-width: 92vw;
+    }
+}
+
+
+
+

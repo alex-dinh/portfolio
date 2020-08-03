@@ -1,0 +1,14 @@
+.card {
+    width: 100%;
+    padding: 10%;
+    background-color: #1d2d37;
+}
+
+.card-img {
+    margin: 0 auto;
+}
+
+.card:hover {
+    opacity: 0.75;
+    color: #23D5AB;
+}

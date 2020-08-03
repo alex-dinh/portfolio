@@ -1,0 +1,34 @@
+.home-wrapper {
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.pagetitle {
+    margin-top: 5vh;
+    font-size: 40pt;
+    /*font-family: "Lucida Sans", Monaco, serif;*/
+    font-family: monospace, Monaco, Lucida Console;
+    color: white;
+}
+
+.section {
+    font-size: 30px;
+    color: white;
+    background: #1D2D37;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px -5px;
+}
+
+.entry {
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+    max-width: 80vw;
+}
+

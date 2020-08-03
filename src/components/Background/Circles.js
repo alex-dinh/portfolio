@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './styles/balls.css';
+import './balls.css';
 
 export default class Circles extends Component {
     constructor(props) {
@@ -27,7 +27,7 @@ export default class Circles extends Component {
     _onMouseMove(e) {
         this.setState({x: e.screenX, y: e.screenY});
     }
-    
+
     draw() {
         if (this.state.x > 0 && this.state.y > 0) {
             let range = 15;

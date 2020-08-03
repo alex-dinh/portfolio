@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import quadcopter from '../images/quadcopter.jpg';
-import circuit from '../images/circuit.jpg';
-import flight1 from '../images/flight1.mp4';
-import flight2 from '../images/flight2.mp4';
+import './Slider.css';
+import quadcopter from '../../images/quadcopter.jpg';
+import circuit from '../../images/circuit.jpg';
+import flight1 from '../../images/flight1.mp4';
+import flight2 from '../../images/flight2.mp4';
 import Slider from 'react-slick';
 import ReactPlayer from 'react-player';
 
-
-
-export default class ImageSlider extends Component {
+export default class QuadSlider extends Component {
     render() {
         let settings = {
             dots: true,
@@ -26,10 +25,10 @@ export default class ImageSlider extends Component {
                     <img src={circuit} className='slide'></img>
                 </div>
                 <div>
-                    <ReactPlayer url={flight1} playing className='slide' width='40vw'/>
+                    <ReactPlayer url={flight1} playing controls='true' className='slide' width='100%'/>
                 </div>
                 <div>
-                    <ReactPlayer url={flight2} playing className='slide' width='40vw'/>
+                    <ReactPlayer url={flight2} playing controls='true' className='slide' width='100%'/>
                 </div>
             </Slider>
         );

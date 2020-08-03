@@ -1,0 +1,13 @@
+.slide {
+    display: block;
+    margin: auto;
+    width: 80%;
+    position: center;
+}
+
+.wingslide {
+    display: block;
+    margin: auto;
+    width: 60%;
+    position: center;
+}

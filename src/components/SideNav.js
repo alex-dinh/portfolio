@@ -21,7 +21,7 @@ class SideNav extends Component {
                     inverted
                     onHide={this.handleSidebarHide}
                     vertical 
-                    visible={visible}
+                    // visible={visible}
                     width='thin'
                 >
                     {/*<Menu.Item onClick={this.handleButtonClick} as='a'>Hide</Menu.Item>*/}
@@ -35,9 +35,10 @@ class SideNav extends Component {
                         <Menu.Item as='a'><Icon name='camera'/>Cool CSS</Menu.Item>
                     </Link>
                 </Sidebar>
-                <Icon id="sidebutton"
-                      onClick={this.handleButtonClick}
-                      name='server' style={{position: 'fixed', left: '10px', top: '10px', zIndex: '3'}}/>
+                {/*<Icon id="sidebutton"*/}
+                      {/*onClick={this.handleButtonClick}*/}
+                      {/*name='server'*/}
+                      {/*size='large'/>*/}
             </div>
 
         )

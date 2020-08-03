@@ -1,0 +1,14 @@
+#profile {
+    color: white;
+    margin-right: 2vw;
+}
+
+#profile:hover {
+    /*color: cadetblue;*/
+    color: #B5E56A
+    /*background: #1D2D37;*/
+}
+
+.profile-wrapper {
+    margin: 30px 0;
+}
