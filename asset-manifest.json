@@ -1,20 +1,9 @@
 {
-  "main.css": "static/css/main.a158bc55.css",
-  "main.css.map": "static/css/main.a158bc55.css.map",
-  "main.js": "static/js/main.1acf2986.js",
-  "main.js.map": "static/js/main.1acf2986.js.map",
-  "static\\media\\1-Home.png": "static/media/1-Home.2b4b405b.png",
-  "static\\media\\2-Sidebar.png": "static/media/2-Sidebar.89734ad8.png",
-  "static\\media\\3-Task History.png": "static/media/3-Task History.f3eac8b7.png",
-  "static\\media\\4-Threads.png": "static/media/4-Threads.1880fd91.png",
-  "static\\media\\5-Payment.png": "static/media/5-Payment.5b2e959a.png",
-  "static\\media\\6-Help.png": "static/media/6-Help.57980894.png",
-  "static\\media\\circuit.jpg": "static/media/circuit.e2be8cff.jpg",
-  "static\\media\\flight1.mp4": "static/media/flight1.3be05df7.mp4",
-  "static\\media\\flight2.mp4": "static/media/flight2.048e9006.mp4",
-  "static\\media\\lightsaber.jpg": "static/media/lightsaber.383ed1d6.jpg",
+  "main.css": "static/css/main.de0eec66.css",
+  "main.css.map": "static/css/main.de0eec66.css.map",
+  "main.js": "static/js/main.409ae9f1.js",
+  "main.js.map": "static/js/main.409ae9f1.js.map",
+  "static\\media\\Viz-Circle.png": "static/media/Viz-Circle.4a5a6a63.png",
   "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
-  "static\\media\\medlify-now-playing.png": "static/media/medlify-now-playing.325a78e5.png",
-  "static\\media\\quadcopter.jpg": "static/media/quadcopter.9ce5e28e.jpg",
-  "static\\media\\webtools.PNG": "static/media/webtools.c0512269.PNG"
+  "static\\media\\medlify-np.png": "static/media/medlify-np.fd94b9c3.png"
 }
