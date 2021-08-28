@@ -19,9 +19,12 @@ class Home extends Component {
                 <Profiles/>
                 <Bio/>
                 <div className="section">Experience</div>
+                <Job title="Software Development Engineer"
+                     company="Amazon"
+                     dates="April 2021 - Present"/>
                 <Job title="Fullstack Software Engineer Intern"
                      company="RISE Summer 2020"
-                     dates="July 2020 - Present"/>
+                     dates="July 2020 - September 2020"/>
                 <Job title="Software Engineer Intern"
                      company="Thales Avionics"
                      dates="June 2020 - Sept 2020"/>

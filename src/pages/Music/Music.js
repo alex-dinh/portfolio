@@ -6,7 +6,8 @@ class Music extends Component {
         return (
             <div className="info">
                 <Menu/>
-                Under Construction...
+                I make electronic music under the name Luxare, and I released an 6-track EP titled 'Structures' on
+                July 4, 2020.
             </div>
         );
     }

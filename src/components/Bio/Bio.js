@@ -8,8 +8,9 @@ class Bio extends Component {
                 Hi, my name is Alex.
                 <br/>
                 <br/>
-                I am currently working on a student ride-sharing platform as part of the RISE Summer remote internship
-                program. I'm passionate about making transportation better, easier, and more sustainable.
+                I am currently working as a Software Engineer at Amazon. I am a part of Team RoBO
+                (Remediation of Bad Orders), where I do development on the systems that automate the decision-making
+                to handle customer claims.
                 <br/>
                 <br/>
 
