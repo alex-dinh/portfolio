@@ -8,10 +8,10 @@ import ProjectsSmall from "./ProjectsSmall";
 export default class Projects extends Component {
     render() {
         return (
-            <div className="info">
-                <Menu/>
-                <h1 id="pagetitle">Projects</h1>
-                <div className="divider"/>
+            <div>
+                {/*<Menu/>*/}
+                {/*<h1 id="pagetitle">Projects</h1>*/}
+                {/*<div className="divider"/>*/}
                 <ProjectsLarge/>
                 <ProjectsSmall/>
             </div>

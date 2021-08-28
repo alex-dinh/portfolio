@@ -25,23 +25,23 @@
 }
 
 .project-large{
-    font-size: 20pt;
+    font-size: 18pt;
     color: white;
-    margin-top: 22px;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    white-space: nowrap;
 }
 
 .project-mobile {
-    font-size: 22pt;
+    font-size: 18pt;
     color: white;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    width: 100%
+    margin: 10px 0;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .projects-title {
     font-size: 30pt;
-    margin-top: 5vh;
+    margin: 10px 0;
     color: white;
 }
 
@@ -49,8 +49,4 @@
     font-size: 16pt;
     color: #B5E56A;
     margin: 20px 0;
-}
-
-#project-img:hover {
-    opacity: 0.5;
 }

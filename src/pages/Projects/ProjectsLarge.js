@@ -1,29 +1,29 @@
 /* Projects for Large Screen */
 import React, {Component} from 'react';
 import './Projects.css';
-import {Grid, Image} from "semantic-ui-react";
-import paragraph from "../../images/paragraph.png";
-import medlify from "../../images/medlify-now-playing.png";
-import ImageCard from "../../components/ImageCard/ImageCard";
+import {Grid, Image} from 'semantic-ui-react';
+import paragraph from '../../images/paragraph.png';
+import medlify from '../../images/medlify-np.png';
+import viz from '../../images/Viz-Circle.png';
+import ImageCard from '../../components/ImageCard/ImageCard';
 
 class ProjectsLarge extends Component {
     render() {
         return (
             <Grid columns={2}>
-
                 <Grid.Row only='tablet computer'>
                     <Grid.Column>
                         <div className="project-large">Viz: Music Visualization</div>
                         <div className="project-desc">Unity/C#</div>
-                        <a href="https://alex-dinh.github.io/medlify">
-                            <ImageCard src={paragraph}/>
+                        <a href="https://github.com/alex-dinh/Viz">
+                            <ImageCard src={viz}/>
                         </a>
                     </Grid.Column>
                     <Grid.Column>
                         <div className="project-large">Medlify: Spotify + Soundcloud</div>
                         <div className="project-desc">React + Node.js</div>
                         <a href="https://alex-dinh.github.io/medlify">
-                            <ImageCard src={paragraph}/>
+                            <ImageCard src={medlify}/>
                         </a>
                     </Grid.Column>
                 </Grid.Row>

@@ -12,8 +12,6 @@ class Profiles extends Component {
                 <a href="https://open.spotify.com/artist/6tU9HTQRScRrfJA000ZJwk?si=S8MVcZU4ToW0c2cd6NaEAA">
                     <Icon size="big" name="spotify" id="profile"/>
                 </a>
-                {/*<a href="https://twitter.com/alexladinh"><Icon id="profile" size="big" name="twitter"/></a>*/}
-                {/*<a href="https://www.instagram.com/alexladinh/"><Icon id="profile" size="big" name="instagram"/></a>*/}
                 <a href="mailto:alexdinh1028@gmail.com">
                     <Icon size="big" name="mail" id="profile"/>
                 </a>
@@ -23,6 +21,8 @@ class Profiles extends Component {
                 <a href="https://www.linkedin.com/in/alexladinh/">
                     <Icon size="big" name="linkedin" id="profile"/>
                 </a>
+                {/*<a href="https://twitter.com/alexladinh"><Icon id="profile" size="big" name="twitter"/></a>*/}
+                {/*<a href="https://www.instagram.com/alexladinh/"><Icon id="profile" size="big" name="instagram"/></a>*/}
             </div>
         );
     }

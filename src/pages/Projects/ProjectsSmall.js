@@ -1,30 +1,28 @@
 /* Projects for small screen */
-import React, {Component} from 'react';
-import {Grid, Image} from "semantic-ui-react";
-import medlify from "../../images/medlify-now-playing.png";
-import webtools from "../../images/webtools.PNG";
-import WingSlider from "../../components/Sliders/WingSlider";
-import QuadSlider from "../../components/Sliders/QuadSlider";
-import lightsaber from "../../images/lightsaber.jpg";
+import React, { Component } from 'react';
+import { Grid, Image } from 'semantic-ui-react';
+import { Redirect } from 'react-router-dom';
+import medlify from '../../images/medlify-np.png';
+import viz from '../../images/Viz-Circle.png';
 
 class ProjectsSmall extends Component {
     render() {
         return (
             <Grid columns={2}>
-                <Grid.Row only='mobile'>
+                <Grid.Row only="mobile">
                     <p className="project-mobile">Viz: Music Vizualization</p>
-                    <p id='project-desc'>React + Node.js</p>
-                    <a href='https://alex-dinh.github.io/medlify'>
-                        <Image id='project-img' src={medlify}/>
+                    <p id="project-desc">React + Node.js</p>
+                    <a href="https://github.com/alex-dinh/Viz">
+                        <Image id="project-img" src={viz} />
                     </a>
                 </Grid.Row>
-                <Grid.Row only='mobile'>
+                <Grid.Row only="mobile">
                     <p className="project-mobile">
                         Medlify: Spotify + Soundcloud
                     </p>
-                    <p id='project-desc'>React + Node.js</p>
-                    <a href='https://alex-dinh.github.io/medlify'>
-                        <Image id='project-img' src={medlify}/>
+                    <p id="project-desc">React + Node.js</p>
+                    <a href="https://alex-dinh.github.io/medlify">
+                        <Image id="project-img" src={medlify} />
                     </a>
                 </Grid.Row>
             </Grid>

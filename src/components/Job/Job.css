@@ -1,0 +1,21 @@
+.job {
+    font-size: 17px;
+    margin: 5px 0 10px;
+}
+
+.title {
+    color: #fff381;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.company {
+    color: #FD971F;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.dates {
+    color: #23D5AB;
+    display: block;
+}

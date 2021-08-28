@@ -3,11 +3,12 @@ import '../../App.css';
 import './Home.css';
 import {Divider, Sidebar} from 'semantic-ui-react';
 import {Icon} from 'semantic-ui-react';
-import {Link} from "react-router-dom";
-// import {Menu} from 'semantic-ui-react/dist/commonjs/collections/Menu/Menu';
+import {Link} from 'react-router-dom';
 import Menu from '../../components/Menu/Menu';
 import Bio from '../../components/Bio/Bio';
-import Profiles from "../../components/Profiles/Profiles";
+import Profiles from '../../components/Profiles/Profiles';
+import Projects from '../Projects/Projects';
+import Job from '../../components/Job/Job';
 
 class Home extends Component {
     render() {
@@ -18,22 +19,34 @@ class Home extends Component {
                 <Profiles/>
                 <Bio/>
                 <div className="section">Experience</div>
-                <p className="entry">Software Engineer Intern at Thales</p>
-                <p className="entry">Mobile Software Engineer at Wing AI Technologies</p>
-                <p className="entry">Frontend Software Engineer Intern at UCI Paul Merage School of Business</p>
-                <p className="entry">Code Instructor at Vision Tech Camps</p>
-                <p className="entry">Calculus Tutor at Tony"s Tutorial Services</p>
-                <Link to="/projects/">
-                    <div className="section">Projects</div>
-                </Link>
-                <p className="entry">Viz: Responsive Music Visualization</p>
-                <p className="entry">Medlify: Spotify + SoundCloud</p>
-                <p className="entry">Wing App: Cross-platform mobile app</p>
-                <p className="entry">Merage Web Tools: Quick and easy formatting for a webmaster</p>
-                <p className="entry">Quadcopter: Remote control + mapping</p>
+                <Job title="Fullstack Software Engineer Intern"
+                     company="RISE Summer 2020"
+                     dates="July 2020 - Present"/>
+                <Job title="Software Engineer Intern"
+                     company="Thales Avionics"
+                     dates="June 2020 - Sept 2020"/>
+                <Job title="Mobile Software Engineer"
+                     company="Wing AI Technologies"
+                     dates=" Jan 2020 -  June 2020"/>
+                <Job title="Frontend Software Engineer Intern"
+                     company="UCI Paul Merage School of Business"
+                     dates="Jan 2019 - Jan 2020"/>
+                <Job title="Code Instructor"
+                     company="Vision Tech Camps"
+                     dates="July 2018 - August 2018"/>
+                <Link to="/projects/"><div className="section">Projects</div></Link>
+                <Projects/>
             </div>
         );
     }
 }
 
 export default Home;
+
+/*
+<p className="entry">Viz: Responsive Music Visualization</p>
+<p className="entry">Medlify: Spotify + SoundCloud</p>
+<p className="entry">Wing App: Cross-platform mobile app</p>
+<p className="entry">Merage Web Tools: Quick and easy formatting for a webmaster</p>
+<p className="entry">Quadcopter: Remote control + mapping</p>
+*/

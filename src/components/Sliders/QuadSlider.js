@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import './Slider.css';
 import quadcopter from '../../images/quadcopter.jpg';
 import circuit from '../../images/circuit.jpg';
-import flight1 from '../../images/flight1.mp4';
-import flight2 from '../../images/flight2.mp4';
+import flight1 from '../../images/videos/flight1.mp4';
+import flight2 from '../../images/videos/flight2.mp4';
 import Slider from 'react-slick';
 import ReactPlayer from 'react-player';
 

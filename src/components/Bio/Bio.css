@@ -1,9 +1,8 @@
 .bio {
-    font-size: 18pt;
-    font-family: monospace, Monaco, Lucida Console;
+    font-size: 16pt;
     font-weight: bold;
     color: white;
-    margin: 25px 0;
+    margin: 10px 0;
     line-height: normal;
     width: 60vw;
 }
