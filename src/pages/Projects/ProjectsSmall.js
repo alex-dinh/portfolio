@@ -4,11 +4,19 @@ import { Grid, Image } from 'semantic-ui-react';
 import { Redirect } from 'react-router-dom';
 import medlify from '../../images/medlify-np.png';
 import viz from '../../images/Viz-Circle.png';
+import qmk from '../../images/qmk.png';
 
 class ProjectsSmall extends Component {
     render() {
         return (
             <Grid columns={2}>
+                <Grid.Row only="mobile">
+                    <p className="project-mobile">Keychron K8 QMK Port</p>
+                    <p id="project-desc">Custom Keyboard Firmware</p>
+                    <a href="https://github.com/alex-dinh/keychron-k8">
+                        <Image id="project-img" src={qmk} />
+                    </a>
+                </Grid.Row>
                 <Grid.Row only="mobile">
                     <p className="project-mobile">Viz: Music Vizualization</p>
                     <p id="project-desc">React + Node.js</p>
