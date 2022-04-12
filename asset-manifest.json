@@ -1,9 +1,10 @@
 {
   "main.css": "static/css/main.05c677b4.css",
   "main.css.map": "static/css/main.05c677b4.css.map",
-  "main.js": "static/js/main.a6a9153a.js",
-  "main.js.map": "static/js/main.a6a9153a.js.map",
+  "main.js": "static/js/main.b6c14955.js",
+  "main.js.map": "static/js/main.b6c14955.js.map",
   "static\\media\\Viz-Circle.png": "static/media/Viz-Circle.4a5a6a63.png",
   "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
-  "static\\media\\medlify-np.png": "static/media/medlify-np.fd94b9c3.png"
+  "static\\media\\medlify-np.png": "static/media/medlify-np.fd94b9c3.png",
+  "static\\media\\qmk.png": "static/media/qmk.c66ad3c0.png"
 }
