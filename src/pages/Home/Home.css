@@ -10,8 +10,7 @@
 .pagetitle {
     margin-top: 5vh;
     font-size: 40pt;
-    /*font-family: "Lucida Sans", Monaco, serif;*/
-    font-family: monospace, Monaco, Lucida Console;
+    font-family: Space Mono, monospace, Monaco, Lucida Console;
     color: white;
 }
 
@@ -19,7 +18,7 @@
     font-size: 22px;
     color: white;
     background: #1D2D37;
-    font-weight: bold;
+    font-weight: 500;
     width: 100%;
     padding: 5px 5px;
     margin: 10px -5px;

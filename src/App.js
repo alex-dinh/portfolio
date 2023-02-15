@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {MemoryRouter, Router, Route, Switch} from 'react-router-dom';
+import {MemoryRouter, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Projects from './pages/Projects/Projects';
 import Background from './components/Background/Background';
 import Music from "./pages/Music/Music";
 // import {createHashHistory} from "history";

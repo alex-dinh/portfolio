@@ -1,7 +1,6 @@
 /* Projects for small screen */
 import React, { Component } from 'react';
 import { Grid, Image } from 'semantic-ui-react';
-import { Redirect } from 'react-router-dom';
 import medlify from '../../images/medlify-np.png';
 import viz from '../../images/Viz-Circle.png';
 import qmk from '../../images/qmk.png';

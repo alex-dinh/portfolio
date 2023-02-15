@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../../App.css';
 import './Projects.css';
-import Menu from '../../components/Menu/Menu';
 import ProjectsLarge from './ProjectsLarge';
 import ProjectsSmall from "./ProjectsSmall";
 

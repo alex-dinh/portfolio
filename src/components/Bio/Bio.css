@@ -1,8 +1,15 @@
 .bio {
-    font-size: 16pt;
-    font-weight: bold;
+    font-size: 15pt;
+    font-weight: 500;
     color: white;
     margin: 10px 0;
     line-height: normal;
-    width: 60vw;
+    width: 65vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .bio {
+        font-size: 12pt;
+        width: 80vw;
+    }
 }

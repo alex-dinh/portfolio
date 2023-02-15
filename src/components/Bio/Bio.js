@@ -8,8 +8,9 @@ class Bio extends Component {
                 Hi, my name is Alex.
                 <br/>
                 <br/>
-                I am currently a Software Engineer at Amazon. I work on team POE (Perfect Order Experience), 
-                where I do development on the systems that automate the decision-making to handle customer claims.
+                I previously worked as a software engineer for Amazon, where I developed the customer claim automation systems
+                mainly using Java and Python. I worked with Amazon datastores (RDS and DynamoDB) and deployed machine learning 
+                models to enhance our automation systems. Currently seeking new software engineering opportunities!
                 <br/>
                 <br/>
 
