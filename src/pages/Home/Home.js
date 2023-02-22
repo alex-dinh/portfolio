@@ -21,19 +21,19 @@ class Home extends Component {
                      dates="April 2021 - May 2022"/>
                 <Job title="Fullstack Software Engineer Intern"
                      company="RISE Summer 2020"
-                     dates="July 2020 - September 2020"/>
+                     dates="July 2020 - Sept 2020"/>
                 <Job title="Software Engineer Intern"
                      company="Thales Avionics"
-                     dates="June 2020 - Sept 2020"/>
+                     dates="June 2019 - Sept 2019"/>
                 <Job title="Software Engineer Intern"
                      company="Wing AI Technologies"
-                     dates=" Jan 2020 -  June 2020"/>
-                <Job title="Frontend Software Engineer Intern"
+                     dates=" Jan 2019 - June 2019"/>
+                <Job title="Web Developer - Student Assistant"
                      company="UCI Paul Merage School of Business"
-                     dates="Jan 2019 - Jan 2020"/>
+                     dates="Jan 2019 - Jan 2019"/>
                 <Job title="Code Instructor"
                      company="Vision Tech Camps"
-                     dates="July 2018 - August 2018"/>
+                     dates="July 2018 - Aug 2018"/>
                 <Link to="/projects/"><div className="section">Projects</div></Link>
                 <Projects/>
             </div>

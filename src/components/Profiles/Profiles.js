@@ -21,8 +21,6 @@ class Profiles extends Component {
                 <a href="https://www.linkedin.com/in/alexladinh/">
                     <Icon size="big" name="linkedin" id="profile"/>
                 </a>
-                {/*<a href="https://twitter.com/alexladinh"><Icon id="profile" size="big" name="twitter"/></a>*/}
-                {/*<a href="https://www.instagram.com/alexladinh/"><Icon id="profile" size="big" name="instagram"/></a>*/}
             </div>
         );
     }
